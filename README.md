@@ -7,4 +7,7 @@ random elements in the decision are removed (except for the erratic Bot type - t
 
 Based on RotP 1.02a
 https://rayfowler.itch.io/remnants-of-the-precursors
+
 https://github.com/rayfowler/rotp-public
+
+https://www.reddit.com/r/rotp

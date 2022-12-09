@@ -5,3 +5,6 @@ build
 build.xml
 manifest.mf
 launch4j/Remnants/
+/bin/
+.classpath
+.project

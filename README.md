@@ -21,7 +21,7 @@ by ThunderPerfectWitchcraft
 - renamed the Human "Triumvirate" to "Technocracy" and the "Triumvir" to "President"
 - higher costs for pop growth by investing into Eco without cloning
 - different improvement steps for terraforming, construction cost, cleanup costs, pollution
-	- early steps are a smaller, later ones are a bigger
+	- early steps are smaller, later ones are a bigger
 	- pollution starts at 150% with 50% as the minimum
 - population also creates a small amount of pollution
 
@@ -38,6 +38,26 @@ https://rayfowler.itch.io/remnants-of-the-precursors
 https://github.com/rayfowler/rotp-public
 
 https://www.reddit.com/r/rotp
+
+### Credits
+
+Vision and development - Ray Fowler
+
+Artwork - Petar Penev
+
+Graphic Design - Kaitlin Lindsay
+
+Writing - Jeff Colucci
+
+Game Manual - Tom Chick
+
+Sound Design - Remi Agullo
+
+AI Development - Sergey Popov, Alexander Stummp and modnar_hajile (reddit)
+
+Translations - Inda Ardani, Emre Ergin, Leonor Gomes, George Grants, Zed Lindberg, Stanislav
+Maslenikov, Sonke Meyer, Brano Mikulka, Daniel Minculescu, Yu Qin, Teodor Savov, Thales
+Seabra, Vangelis Skoupras, Michal Sweitlik, Mike Visnjic
 
 ## Sources for this mod
 

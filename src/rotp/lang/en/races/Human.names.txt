@@ -6,10 +6,10 @@ desc2: Expert Traders and Magnificent Diplomats
 desc3: The silver-tongued Humans are masters at convincing others to serve their interests.
 
 // possible home system names
-home: Earth, Terra, Tellus, Prime, Midgard
+home: New Earth, Terra, Tellus, Prime, Midgard
 
-title:     Triumvir
-fulltitle: Triumvir
+title:     President
+fulltitle: President
 
 // possible leader names
 leader: Alexander, Bladrov II, Durash IV, Johann III, Lasitus, Strader

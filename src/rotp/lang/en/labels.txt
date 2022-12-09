@@ -1608,7 +1608,7 @@ RACES_DIPLOMACY_BUREAU            | Diplomacy Bureau
 RACES_DIPLOMACY_BUREAU_DESC1      | Contact foreign empires or recall your diplomats to prevent empires from contacting you.
 RACES_DIPLOMACY_BUREAU_DESC       | Contact the [alien_race] ambassador for an audience or establish contact if your diplomats have been recalled. 
 RACES_DIPLOMACY_BUREAU_DESC_RANGE | We cannot establish diplomatic relations with empires that are out of our ship range.
-RACES_DIPLOMACY_BUREAU_DESC_FINAL | We are engaged in a final war with the New Republic. Diplomacy is no longer an option. 
+RACES_DIPLOMACY_BUREAU_DESC_FINAL | We are engaged in a final war with the Orion Sector Confederacy. Diplomacy is no longer an option. 
 RACES_DIPLOMACY_KNOWN_EMPIRES     | Known Foreign Empires
 RACES_DIPLOMACY_RECALLED_DIPLOMAT | Recalled Diplomats
 RACES_DIPLOMACY_MANAGE_DIPLOMATS  | Manage Diplomats
@@ -1617,7 +1617,7 @@ RACES_DIPLOMACY_CONTACT           | Establish Contact
 RACES_DIPLOMACY_TRADE_SUMMARY     | Trade Summary
 RACES_DIPLOMACY_TRADE_DESC        | Contact the [alien_race] ambassador to negotiate a trade treaty. Trade networks take time and money to set up, but once mature bring money into your empire's treasury.
 RACES_DIPLOMACY_TRADE_DESC_RANGE  | We cannot establish trade networks with empires that are out of our ship range.
-RACES_DIPLOMACY_TRADE_DESC_FINAL  | We are engaged in a final war with the New Republic. Trade is no longer possible. 
+RACES_DIPLOMACY_TRADE_DESC_FINAL  | We are engaged in a final war with the Orion Sector Confederacy. Trade is no longer possible. 
 RACES_DIPLOMACY_TRADE_TREATY      | Trade Treaty
 RACES_DIPLOMACY_FOREIGN_RELATIONS | Foreign Relations
 RACES_DIPLOMACY_FOREIGN_RANGE     | We cannot know the foreign relations of the [alien_empire] until we have established diplomatic contact.
@@ -1650,7 +1650,7 @@ RACES_INTEL_REPORT_AGE            | Report Age
 RACES_INTEL_SPY_NETWORK           | Spy Networks
 RACES_INTEL_SPENDING              | Spending
 RACES_INTEL_SPENDING_DESC         | Increase spending to add spies to the network over time. 
-RACES_INTEL_SPENDING_DESC_UNITY   | Spy networks are unnecessary as technology is shared freely among members of the New Republic. 
+RACES_INTEL_SPENDING_DESC_UNITY   | Spy networks are unnecessary as technology is shared freely among members of the Orion Sector Confederacy. 
 RACES_INTEL_SPENDING_CAPPED       | Empire spy spending limit reached. Funding for spy networks reduced by %1%.
 RACES_INTEL_SPENDING_RANGE        | Cannot create spy networks for empires out of ship range.
 RACES_INTEL_PERCENT_AMT           | %1%
@@ -1961,12 +1961,12 @@ DIPLOMACY_RETREAT_SHIPS           | Order all ships orbiting or in transit to [a
 GAME_OVER_OVERTHROWN_LOSS         | Overthrown Loss
 GAME_OVER_MILITARY_LOSS           | Military Loss
 GAME_OVER_DIPLOMATIC_LOSS         | Diplomatic Loss
-GAME_OVER_NEW_REPUBLIC_LOSS       | New Republic Loss
+GAME_OVER_NEW_REPUBLIC_LOSS       | Orion Sector Confederacy Loss
 GAME_OVER_REBELLION_LOSS          | Rebellion Loss
 GAME_OVER_DIPLOMATIC_WIN          | Diplomatic Win
 GAME_OVER_MILITARY_WIN            | Military Win
 GAME_OVER_MILITARY_ALLIANCE_WIN   | Military Alliance Win
-GAME_OVER_NEW_REPUBLIC_WIN        | New Republic Win
+GAME_OVER_NEW_REPUBLIC_WIN        | Orion Sector Confederacy Win
 GAME_OVER_REBELLION_WIN           | Rebellion Win
 GAME_OVER_REBEL_ALLIANCE_WIN      | Rebel Alliance Win
 GAME_OVER_ALLIANCE_WIN            | Alliance Win

@@ -1,5 +1,6 @@
 /*
  * Copyright 2015-2020 Ray Fowler
+ * Modified version by TPW
  * 
  * Licensed under the GNU General Public License, Version 3 (the "License");
  * you may not use this file except in compliance with the License.
@@ -1468,12 +1469,49 @@ public class AIDiplomat implements Base, Diplomat {
     }
     @Override
     public Empire councilVoteFor(Empire civ1, Empire civ2) {
+		float Score1=0.0f;
+		float Score2=0.0f;
         EmpireView cv1 = empire.viewForEmpire(civ1);
         EmpireView cv2 = empire.viewForEmpire(civ2);
+		float DiplomacyGravitas=1.0f;
+		float MilitaryGravitas=1.0f;
+        //get gravitas of personality:
+         if (empire.leader().isPacifist()) //For Pacifists, ideological tenets are more important then opportunism
+         {
+			 DiplomacyGravitas=2.0f;
+			 MilitaryGravitas=2.0f;
+		 }
+		 
+		 if (empire.leader().isHonorable()) //Honorables favour their allies, but are also able to aknowledge practical superiority
+         {
+			 DiplomacyGravitas=1.75f;
+			 MilitaryGravitas=2.5f;
+		 }
 
-        // to test diplomatic win for player
-        //if (civ1.isPlayerControlled()) return castVoteFor(civ1, approv1);
-        //if (civ2.isPlayerControlled()) return castVoteFor(civ2, approv2);
+		if (empire.leader().isRuthless()) //Ruthless players will pledge their loyality to the strongest force no matter what.
+         {
+			 DiplomacyGravitas=0.0f;
+			 MilitaryGravitas=4.0f;
+		 }
+
+		if (empire.leader().isAggressive()) //Aggressive Players are hard to impress on the military side; even more so with means of diplomacy
+         {
+			 DiplomacyGravitas=1.0f;
+			 MilitaryGravitas=2.0f;
+		 }
+
+		if (empire.leader().isXenophobic()) //Xenophobes might be influenced by diplomatic relations, but will primarily look on military
+         {
+			 DiplomacyGravitas=0.75f;
+			 MilitaryGravitas=2.5f;
+		 }
+		 if (empire.leader().isErratic()) //Nobody knows what an erratic player might do next.
+         {
+			 
+			 DiplomacyGravitas=(75 + random(0, 200))/100.0f;
+			 MilitaryGravitas=(75 + random(0, 200))/100.0f;
+		 }
+
 
         // always vote for yourself
         if (civ1 == empire)   return castVoteFor(civ1);
@@ -1481,24 +1519,20 @@ public class AIDiplomat implements Base, Diplomat {
         
         float pct;
 
-        // if allied with one, vote for that ally
+        // if allied with one, add a bonus
         if (cv1.embassy().alliance() && !cv2.embassy().alliance())
-            return castVoteFor(civ1);
+            Score1=0.33f;
         if (cv2.embassy().alliance() && !cv1.embassy().alliance())
-            return castVoteFor(civ2);
+            Score2=0.33f;
 
-        // if at war with one, vote for other (if contacted)
-        if (cv1.embassy().anyWar() && !cv2.embassy().anyWar()) {
-            if (cv2.embassy().contact())
-                return castVoteFor(civ2);
-            else
-                return castVoteFor(null);
+        // if at war with one, punish him!
+        if (cv1.embassy().anyWar()) 
+        {
+                Score1=-0.33f;     
         }
-        if (cv2.embassy().anyWar() && !cv1.embassy().anyWar()) {
-            if (cv1.embassy().contact())
-                return castVoteFor(civ1);
-            else
-                return castVoteFor(null);
+        if (cv2.embassy().anyWar()) 
+        {
+				Score2=-0.33f;
         }
 
         // modnar: add empire power bonus for voting
@@ -1506,28 +1540,60 @@ public class AIDiplomat implements Base, Diplomat {
         // only what own empire can see (through spies)
         float allEmpirePower = 0.0f;
         for (Empire e: galaxy().activeEmpires()) 
-                allEmpirePower += (empire.militaryPowerLevel(e) + empire.industrialPowerLevel(e));
+                allEmpirePower += (e.militaryPowerLevel(e) + e.industrialPowerLevel(e));
+                
+        float Dip1=(cv1.embassy().relations()/100.0f + civ1.orionCouncilBonus()  + Score1);
+		float Dip2=(cv2.embassy().relations()/100.0f  + civ2.orionCouncilBonus() + Score2);
+		
+		//Reducing negative Gravitas of diplomacy if it is negative to prevent clear loser from not voting.
+		if(Dip1<0)Dip1=Dip1/5.0f;
+		if(Dip2<0)Dip2=Dip1/5.0f;
+        
         
         // powerBonus1/powerBonus2 vary from 0 to 1
-        float powerBonus1 = (empire.militaryPowerLevel(civ1) + empire.industrialPowerLevel(civ1)) / allEmpirePower;
-        float powerBonus2 = (empire.militaryPowerLevel(civ2) + empire.industrialPowerLevel(civ2)) / allEmpirePower;
+        float powerBonus1 = ((civ1.militaryPowerLevel(civ1) + civ1.industrialPowerLevel(civ1)) / allEmpirePower);
+         //System.out.println("\n\nPower Bonus 1 "+powerBonus1);
+        float powerBonus2 = ((civ2.militaryPowerLevel(civ2) + civ2.industrialPowerLevel(civ2)) / allEmpirePower);
+         // System.out.println("Power Bonus 2 "+powerBonus2);
+        float OwnPower = ((empire.militaryPowerLevel(empire) + empire.industrialPowerLevel(empire)) / allEmpirePower);
+         //System.out.println("Own Power "+OwnPower);
+
+		
+		//System.out.println("Diplomacy Gravitas "+(DiplomacyGravitas));
+		//System.out.println("Military Gravitas "+(MilitaryGravitas));
+        //System.out.println("Embacy Relations1 "+(cv1.embassy().relations()/100.0f));
+		//System.out.println("Council Bonus1 "+(civ1.councilBonus()));
+		//System.out.println("OrionBonus1 "+(civ1.orionCouncilBonus()));
+		//System.out.println("Previus Vote Bonus1 "+(previousVoteBonus(civ1)));
+		//System.out.println("Alliance/War Score "+(Score1));
+		//System.out.println("Diplomatcy Score 1 "+(Dip1));
+
+        //System.out.println("Embacy Relations2 "+(cv2.embassy().relations()/100.0f));
+		//System.out.println("Council Bonus2 "+(civ2.councilBonus()));
+		//System.out.println("OrionBonus2 "+(civ2.orionCouncilBonus()));
+		//System.out.println("Previus Vote Bonus2 "+(previousVoteBonus(civ2)));
+		//System.out.println("Alliance/War Score2 "+(Score2));
+		//System.out.println("Diplomatcy Score 2 "+(Dip2));
+		
         
-        // decide to vote for civ1
-        // modnar: don't force vote for civ2 if civ1 get the negative check
-        pct = cv1.embassy().relations()/100.0f + civ1.councilBonus() + civ1.orionCouncilBonus() + previousVoteBonus(civ1) + powerBonus1;
-        if (random() <= Math.abs(pct)) {
-            if (pct > 0)
-                return castVoteFor(civ1);
-        }
-
-        // decide to vote for civ2
-        // modnar: don't force vote for civ1 if civ2 get the negative check
-        pct = cv2.embassy().relations()/100.0f + civ2.councilBonus() + civ2.orionCouncilBonus() + previousVoteBonus(civ2) + powerBonus2;
-        if (random() <= Math.abs(pct)) {
-            if (pct > 0)
-                return castVoteFor(civ2);
-        }
-
+		
+		powerBonus1=(powerBonus1-OwnPower)*MilitaryGravitas;
+		powerBonus2=(powerBonus2-OwnPower)*MilitaryGravitas;
+		
+		//System.out.println("Power Result 1 "+powerBonus1);
+		//System.out.println("Power Result 2 "+powerBonus2);
+		
+        Score1 = (Dip1*DiplomacyGravitas)+ civ1.councilBonus()  + powerBonus1;
+        // System.out.println("Score 1 "+Score1);
+        Score2 = (Dip2*DiplomacyGravitas) + civ2.councilBonus() + powerBonus2;
+		 // System.out.println("Score 2 "+Score2);
+       
+		if(Score1>Score2 && Score1>0.60f)
+			return castVoteFor(civ1);
+		
+		if(Score2>Score1 && Score2>0.60f)
+			return castVoteFor(civ2);
+			
         // return undecided
         return castVoteFor(null);
     }

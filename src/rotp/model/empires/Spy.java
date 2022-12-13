@@ -43,27 +43,31 @@ public class Spy implements Base, Serializable {
         mission = MISSION_SUCCEEDS;
         return this;
     }
+    /**
+     * determine spy's fate.. p271 of Strategy Guide, Table 12-1
+     * danielrogowski: halved randomness of internal security
+     * @param securityAdj
+     */
     public void attemptInfiltration(float securityAdj) {
-        // determine spy's fate.. p271 of Strategy Guide, Table 12-1
-        float r = random() + securityAdj;
+        float r = random() / 2 + securityAdj;
         mission = MISSION_UNATTEMPTED;
         if (r < 0) {
             fate = FATE_CLEARED;
             identity = IDENTITY_CAN_FRAME;
         }
-        else if (r <= .3) {
+        else if (r <= .15) {
             fate = FATE_CLEARED;
             identity = IDENTITY_UNDISCOVERED;
         }
-        else if (r <= .5) {
+        else if (r <= .25) {
             fate = FATE_CLEARED;
             identity = IDENTITY_WILL_BE_CAUGHT;
         }
-        else if (r <= .7)  {
+        else if (r <= .35)  {
             fate = FATE_STOPPED;
             identity = IDENTITY_UNDISCOVERED;
         }
-        else if (r <= 1) {
+        else if (r <= .5) {
             fate = FATE_STOPPED;
             identity = IDENTITY_CAUGHT;
         }

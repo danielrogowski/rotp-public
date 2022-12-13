@@ -501,12 +501,16 @@ public final class SpyNetwork implements Base, Serializable {
     private float costForNextSpy() {
         float spyCost = owner().baseSpyCost();
         for (int i=1;i<activeSpies.size();i++)
-            spyCost *= 2;
+            // danielrogowski: make it less costly to insert the next spy (+100% cost per spy was quite hefty)
+            spyCost *= 1.25;
         return spyCost;
     }
     private float overallSecurityAdj() {
+        // danielrogowski: make internal security less effective (it's always harder to defend, than to attack, refer to 9/11)
+        float adj = -.1f;
+
         // security pct based on their spending
-        float adj = empire().totalInternalSecurityPct();
+        adj += empire().totalInternalSecurityPct();
 
         // we get a security bonus if there is no trade set up with any race...
         // xenophobes rejoice! now there is a slight downside to trade routes

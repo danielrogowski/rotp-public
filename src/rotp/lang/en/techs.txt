@@ -219,7 +219,7 @@ CLOAK_0_DETAIL   | Renders ship nearly invisible until they attack, improving th
 // Cloning tech
 //
 CLONE_0_NAME     | Cloning
-CLONE_0_DETAIL   | Allows bio engineered colonists to be grown at a rate of 1M per 10 BC.
+CLONE_0_DETAIL   | Allows bio engineered colonists to be grown at a rate of 1M per 15 BC.
 
 CLONE_1_NAME     | Advanced Cloning
 CLONE_1_DETAIL   | Allows bio-engineered colonists to be grown at a rate of 1M per 5 BC.

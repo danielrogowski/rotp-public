@@ -18,7 +18,8 @@ package rotp.model.tech;
 import rotp.model.empires.Empire;
 
 public final class TechCloning extends Tech {
-    public static final int BASE_POPULATION_COST = 20;
+    // danielrogowski: without cloning: raised from 20
+    public static final int BASE_POPULATION_COST = 45;
     public float growthCost;
 
     public TechCloning(String typeId, int lv, int seq, boolean b, TechCategory c) {
@@ -36,7 +37,8 @@ public final class TechCloning extends Tech {
 
         switch(typeSeq) {
             case 0:
-                growthCost = 10;
+                // danielrogowski: raised from 10
+                growthCost = 15;
                 break;
             case 1:
                 growthCost = 5;

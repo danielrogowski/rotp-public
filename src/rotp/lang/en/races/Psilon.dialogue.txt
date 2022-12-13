@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Psilon specific dialogue
 CONTACT_PACIFIST           | Greetings and salutations! We of the [my_empire] learned long ago the benefits of peaceful cooperation. We hope that our diplomatic ties with you will be as harmonious as our own internal affairs.
@@ -23,8 +25,8 @@ GREETING_04                | Greetings ambassador. I am happy to bring your requ
 GREETING_07                | The line is open, ambassador. What is it you... wish to discuss?
 //
 DECLAREWAR_HATE_01         | We have done all we can to... accommodate your presence, but a race as unintelligent as yours is simply too much to bear as a celestial neighbor. Fear not, your end will be as swift as it is painless.
-DECLAREWAR_HATE_02         | We have spent much time in deliberation. It is... regrettable, but we have determined your people must be removed from the galaxy at this time.
-DECLAREWAR_HATE_03         | Though we prefer peace in all instances, we cannot abide you to continue to act as you have been. We will... do what we must to restore peace to the galaxy.
+DECLAREWAR_HATE_02         | We have spent much time in deliberation. It is... regrettable, but we have determined your people must be removed from the sector at this time.
+DECLAREWAR_HATE_03         | Though we prefer peace in all instances, we cannot abide you to continue to act as you have been. We will... do what we must to restore peace to the sector.
 DECLAREWAR_ERRATIC_01      | I admit I find actions of the Council puzzling, but they have deemed that your people have reached the limit of their intelligence and must be... removed. Alas, I am merely an ambassador and have no means to persuade them otherwise.
 DECLAREWAR_ERRATIC_02      | To properly value peace, we must on occasion... remind ourselves of the ugliness of war. Do you not agree, ambassador?
 DECLAREWAR_ERRATIC_03      | The time for battle is upon us, ambassador. By the time we are done, one of our empires will be forever reminded of the costs of war. The other empire will, unfortunately, cease to exist.
@@ -46,7 +48,7 @@ DECLAREWAR_ASSASSIN_01     | I must offer you some level of... congratulations. 
 OFFER_PEACE_01             | War never changes, ambassador. So much killing, so much destruction, all of it for what? Please, let us acknowledge our... past wrongs and begin a new era of peace. 
 OFFER_TRADE_01             | Civilized and... intelligent races like ours know that prosperity, not war, proves the most beneficial. The Republic wishes mutual prosperity with your people, and a trade agreement of [amt] BC each year as the best place to begin. 
 OFFER_PACT_01              | The more time we spend amongst your kind, the more we value our diplomatic ties. We should do all we can to... preserve that bond, and a non-aggression pact between our people will see that continues to endure, will it not, ambassador? 
-OFFER_ALLIANCE_01          | The time has come ambassador: an alliance between the [my_empire] and the [your_empire] must be forged. Through us the galaxy will see that peaceful co-existence is the only acceptable choice! 
+OFFER_ALLIANCE_01          | The time has come ambassador: an alliance between the [my_empire] and the [your_empire] must be forged. Through us the sector will see that peaceful co-existence is the only acceptable choice! 
 
 WARN_TRESPASSING_01        | Your presence at the [system] has raised eyebrows in the council. Please, withdraw at once before the peace we've worked so hard to achieve is broken. 
 WARN_EXPANSION_01          | There are few ways for us to interpret you so rapidly... expanding your sphere of influence. None of them are good for maintaining the peace between our people.
@@ -58,7 +60,7 @@ WARN_ESPIONAGE_01          | Spying, ambassador? Would it not have been more pru
 WARN_SABOTAGE_01           | I never would have dreamed the [spy_empire] was capable of such... despicable sabotage. In the name of peace, I pray you do not repeat this foolish mistake again. [forced]
 WARN_BIOWEAPON_01          | This is... unheard of, ambassador. To use a bioweapon on civilian targets even a single time forces us to reconsider in every possible way how we perceive you! 
 WARN_GENOCIDE_01           | And just like that, a voice in the chorus of the galaxy is lost forever. For a people to be capable of such evil... I fear we may not be able to form a lasting peace with you in the end.
-WARN_FINAL_WAR_01          | The galaxy is on the brink of harmony, and yet you obstinately choose to stand in the way. If the... removal of the [rebel_empire] is the cost of eternal peace, than we will do what we can to see that cost paid.  
+WARN_FINAL_WAR_01          | The sector is on the brink of harmony, and yet you obstinately choose to stand in the way. If the... removal of the [rebel_empire] is the cost of eternal peace, than we will do what we can to see that cost paid.  
 WARN_COUNCIL_VOTE_01       | The [candidate_empire] seeks nothing but peace so that all may share in the prosperity it brings. If you wish for the best... future for your people, you will not vote against the Republic in council again.
 WARN_OATHBREAKER_01        | Scurrilous and dishonorable, ambassador. We wonder if you would break peace as easily as you break agreements, and we will be ready should you ever choose to do so. [spiesCaught]
 WARN_ATTACKED_ALLY_01      | Call off these attacks of yours, ambassador! You know we are allies of the [defender_race]. Can we not instead broker a peace through dialogue instead of you forcing us all to war? 
@@ -68,7 +70,7 @@ PRAISE_COUNCIL_VOTE_01     | Our friends at the [voter_empire] have never let us
 PRAISE_COUNCIL_VOTE_02     | Wise decisions were made at the council, but perhaps the wisest was the vote you placed for the Republic. We recognize such... dedication to peace, and may enjoy friendship with you so long as that dedication continues.  
 PRAISE_COUNCIL_VOTE_03     | We are aware of your vote for the Republic in council. We are surprised, ambassador, and may have underestimated the intelligence of your people. 
 
-PRAISE_ATTACKED_ENEMY_01   | Ambassador! Your aid is most... appreciated. Together we will remove the [defender_race] menace, and restore the peace this galaxy so desperately craves. 
+PRAISE_ATTACKED_ENEMY_01   | Ambassador! Your aid is most... appreciated. Together we will remove the [defender_race] menace, and restore the peace this sector so desperately craves. 
 PRAISE_ATTACKED_ENEMY_02   | We see and honor the actions of the [attacker_empire] as a commitment to our ideals of a greater peace. Rest assured that as soon as we... force the [defender_race] to abate, that peace can be allowed to resume. 
 PRAISE_ATTACKED_ENEMY_03   | Your people are both violent and brazen, so it is little surprise you would join in a war so readily. Still, the fact that you turned your weapons towards the party who does not fight for peace must at least be... acknowledged. 
 

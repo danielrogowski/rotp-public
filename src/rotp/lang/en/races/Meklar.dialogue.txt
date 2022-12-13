@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Meklar specific dialogue
 
@@ -28,12 +30,12 @@ DECLAREWAR_HATE_03         | Dominion cannot continue directives while [your_emp
 DECLAREWAR_ERRATIC_01      | [my_title] concludes existence of [your_race] species threatens Dominion objectives. Dominion to begin extermination protocols immediately.
 DECLAREWAR_ERRATIC_02      | [my_title] judges [your_race] species likely holds secret to further Dominion goal. Dominion will take secrets from [your_race] species by force.
 DECLAREWAR_ERRATIC_03      | [my_title] deems [your_race] species as unacceptable variable in Dominion plans. Dominion will eradicate [your_race] species or terminate itself in process.
-DECLAREWAR_MILITARY_01     | [my_empire] must continue to proliferate across galaxy in pursuit of ultimate goal. [your_empire] inhibits expansion. Problem now being rectified.
+DECLAREWAR_MILITARY_01     | [my_empire] must continue to proliferate across sector in pursuit of ultimate goal. [your_empire] inhibits expansion. Problem now being rectified.
 DECLAREWAR_MILITARY_02     | Dominion unable to locate primary objective. Possibility that planets near or belonging to [your_empire] contain what is sought. War unavoidable.
 DECLAREWAR_MILITARY_03     | Dominion forced to expand reach of its territory. Strength of [your_race] species cannot be dissuading factor. War regrettable, but necessary.
 DECLAREWAR_ALLIANCE_01     | [your_empire] has declared war on Dominion ally. Dominion will protect vested interest in objectives by eradicating [your_race] threat.
 DECLAREWAR_ALLIANCE_02     | Dominion received request for aid from [other_empire]. Proceeding to aid ally in war against [your_race] species so long as conflict persists.
-DECLAREWAR_ALLIANCE_03     | [your_race] species grows arrogant to declare war on others. Dominion will aid other empire to remove [your_race] species from galaxy.
+DECLAREWAR_ALLIANCE_03     | [your_race] species grows arrogant to declare war on others. Dominion will aid other empire to remove [your_race] species from sector.
 DECLAREWAR_SPYING_01       | [your_race] species engages in secret action against Dominion.  Consequences for Dominion: negligible. Consequences for [your_race] species: fatal.
 DECLAREWAR_SPYING_02       | Subterfuge detected in Dominion territory. Source confirmed as [your_race] species. Dominion protocols require war as response. 
 DECLAREWAR_SPYING_03       | Dominion detects obvious attempt at destabilization by [your_empire]. Cannot allow [your_race] species to continue interference with objectives. Dominion must retaliate at any cost.
@@ -58,11 +60,11 @@ WARN_ESPIONAGE_01          | [spy_race] espionage activity recorded in Dominion 
 WARN_SABOTAGE_01           | Dominion aware of [spy_race] species involvement in recent sabotage. Attempt at chaos too menial to warrant response. Further attempts at sabotage will ensure swift retribution [forced]
 WARN_BIOWEAPON_01          | Dominion observes use of crude bioweapon. Effective armament. [attacker_race] species threat assessment increased by 3 levels. 
 WARN_GENOCIDE_01           | Genocide of [victim_race] species by [attacker_race] species recorded. Dominion unconcerned with possible cause or alternatives. [attacker_race] species threat assessment increased by 5 levels.  
-WARN_FINAL_WAR_01          | All known species create agreement to ensure lasting peace in galaxy. [rebel_race] species sole dissenter. Dominion will take appropriate action.
+WARN_FINAL_WAR_01          | All known species create agreement to ensure lasting peace in sector. [rebel_race] species sole dissenter. Dominion will take appropriate action.
 WARN_COUNCIL_VOTE_01       | Dominion aware of [voter_race] actions in council. Meaning irrelevant. Result assessed as detrimental to [candidate_race] goals. Diplomatic standing adjusted accordingly.  
 WARN_OATHBREAKER_01        | [my_title] passes judgment: [your_race] species no longer deemed trustworthy. All future dealings subject to revision based on [your_race] species breaking binding agreement. [spiesCaught]
 WARN_ATTACKED_ALLY_01      | Conflict recorded between [your_race] species and [defender_race] species. [defender_race] species known ally of Dominion. Cease fighting or prepare for consequences. 
-WARN_REBELLING_AGAINST_01  | [your_race] species now obstacle of Dominion objectives. Galactic Council ruling unacceptable. Awaiting response from Supreme Arbiter. 
+WARN_REBELLING_AGAINST_01  | [your_race] species now obstacle of Dominion objectives. Orion Council ruling unacceptable. Awaiting response from Supreme Arbiter. 
 
 
 PRAISE_COUNCIL_VOTE_01     | Ambassador of [voter_race] species continues to provide aid in advancing [candidate_race] objectives. Dominion recognizes benefit of continued relationship with [voter_race] species. Dominion will repay favor as needed. 
@@ -75,7 +77,7 @@ PRAISE_ATTACKED_ENEMY_03   | Attacking [defender_race] species does not excuse p
 
 PRAISE_TRADE_01            | Dominion and [your_race] species continue to gain much from continuous trade. Dominion wishes trade to remain as long as arrangement continues beneficial status.
 PRAISE_TRADE_02            | Dominion expresses satisfaction at trade agreement with [your_race] species. Ensure agreement endures so that both races profit from each other. 
-PRAISE_REBELLING_WITH_01     | Dominion agrees Galactic Council ruler untrustworthy. [your_race] species objection noted. Dominion will aid [your_race] species in rebellion. 
+PRAISE_REBELLING_WITH_01     | Dominion agrees Orion Council ruler untrustworthy. [your_race] species objection noted. Dominion will aid [your_race] species in rebellion. 
  
 ACCEPT_TRADE_01            | [your_race] species trade request received. [amt] BC proposed amount. Dominion agrees.
 RESPOND_IGNORE_THREAT_01   | Threat from [your_race] species puzzling. [your_race] civilization substantially inferior to Dominion fleets. Ignoring.

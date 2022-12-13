@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Alkari specific dialogue
 
@@ -24,7 +26,7 @@ GREETING_04                | I greet you, ambassador. The Sovereignty is prepare
 GREETING_07                | Speak quickly, ambassador! We are required by our laws to observe all proper decorum, but that does not mean we will waste our time fulfilling your trivial demands!
 
 //
-DECLAREWAR_HATE_01         | A race such as yours, which has no concern for propriety and politesse, does not belong in a galaxy ruled by the Sovereignty, ambassador! Prepare for battle!
+DECLAREWAR_HATE_01         | A race such as yours, which has no concern for propriety and politesse, does not belong in a sector ruled by the Sovereignty, ambassador! Prepare for battle!
 DECLAREWAR_HATE_02         | Your crassness and arrogance have brought this about! Deliver this message to your [your_title]: War is now upon you!
 DECLAREWAR_HATE_03         | Such vulgarity! The [my_empire] would rather cease to exist than continue to share the cosmos with such a boorish people, ambassador!
 //
@@ -67,22 +69,22 @@ WARN_ESPIONAGE_01          | Hmfhmfhmf, it does not surprise us that so scurrilo
 WARN_SABOTAGE_01           | Absolutely disgusting, ambassador! To slink in darkness and commit sabotage like fiends in the night!? But you are as stupid as you are crass: the buildings you destroyed were not important enough to warrant a response! [forced]
 WARN_BIOWEAPON_01          | Dishonor! Dishonor! You have used the most unspeakable type of weapon against those who cannot so much as raise a shield to protect themselves! Your well-earned infamy will follow you to the end, ambassador! 
 WARN_GENOCIDE_01           | While I do agree that the [victim_race] were a miserable horde of churlish vermin, the Sovereignty strongly opposes committing genocide. We wonder, ambassador, if your people are capable of repeating these actions with more... civilized races?
-WARN_FINAL_WAR_01          | There is no virtue in this course you have chosen, ambassador. Make no mistake: now that you have decided to stand against the duly elected leader of the galaxy, we are honor bound to do everything we can to stop you! 
+WARN_FINAL_WAR_01          | There is no virtue in this course you have chosen, ambassador. Make no mistake: now that you have decided to stand against the duly elected leader of the sector, we are honor bound to do everything we can to stop you! 
 WARN_COUNCIL_VOTE_01       | So much for the illustrious ambassador of the [your_empire]! Did you truly believe we would not learn of your deception in council? You should fear for your people, ambassador: the Spire King will be most displeased. 
 WARN_OATHBREAKER_01        | How scandalous! You know the esteem we place upon honor, yet you so openly break your word merely to satisfy your own desires?! The Sovereignty will remember this insult forever, ambassador, and will surely repay it in kind! [spiesCaught]
 WARN_ATTACKED_ALLY_01      | It is troublesome, ambassador, that your people and the [defender_empire] have chosen to bicker so. You cannot hope to match our combined might, ambassador: the Sovereignty urges you to reconsider your actions.
-WARN_REBELLING_AGAINST_01  | Did you think we had forgotten how dishonorable you have proven to be? It matters not whether we must fight you or the entire galaxy: you will never sit on the throne of the council so long as the Spire King lives! 
+WARN_REBELLING_AGAINST_01  | Did you think we had forgotten how dishonorable you have proven to be? It matters not whether we must fight you or the entire sector: you will never sit on the throne of the council so long as the Spire King lives! 
  
 PRAISE_COUNCIL_VOTE_01     | The esteemed and venerable ambassador of the [your_empire]! We are in debt for your service to us at this council meeting, and are eager to make well on that debt whenever you decide on how best that might be done. 
 PRAISE_COUNCIL_VOTE_02     | Greetings to you, ambassador. You honor us with a voice that speaks favor to our cause before those gathered here. I'm certain that the Spire King will wish to learn more of such an honorable people as soon as I make my report to him. 
 PRAISE_COUNCIL_VOTE_03     | Hmfhmfhmf, surely you do not expect us to believe that you sided with the Sovereignty out of respect or a sense of honor, ambassador? Yet, perhaps you will continue to prove yourself to us if only we give you another chance to do so? 
 
 PRAISE_ATTACKED_ENEMY_01   | Ah! Our esteemed friend and ally brings good tidings in this time of war! Come ambassador: let our people do battle against these horrid [defender_race] together as comrades-in-arms! 
-PRAISE_ATTACKED_ENEMY_02   | This war shall be over quickly, ambassador. Even alone the Sovereignty would easily overpower these vulgar [defender_race] beasts. But together? Together we shall wipe the stain of their race clean from the galaxy forever! 
+PRAISE_ATTACKED_ENEMY_02   | This war shall be over quickly, ambassador. Even alone the Sovereignty would easily overpower these vulgar [defender_race] beasts. But together? Together we shall wipe the stain of their race clean from the sector forever! 
 PRAISE_ATTACKED_ENEMY_03   | I am as certain that you act out of opportunity as I am certain that you do not know the meaning of the word "honor"! We allow you to help us against the [defender_race], if for nothing more than to prevent us from taking as many casualties as we might otherwise! 
 
 PRAISE_TRADE_01            | It relieves me more than you know, ambassador, that your people conduct business so honorably. The Sovereignty honors you and your people, and will value our friendship even more than it does our continued agreement of trade! 
-PRAISE_TRADE_02            | There are many ways to prove one's honor, ambassador. Conducting business fairly and in good faith is one of the best ways to do so, and something the Sovereignty values highly from those we encounter in this galaxy. 
+PRAISE_TRADE_02            | There are many ways to prove one's honor, ambassador. Conducting business fairly and in good faith is one of the best ways to do so, and something the Sovereignty values highly from those we encounter in this sector. 
 
 PRAISE_REBELLING_WITH_01   | Those brutes on the council underestimate us, ambassador! Together we will show them what the term "fatal misstep" truly means! 
 

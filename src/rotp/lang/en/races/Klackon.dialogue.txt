@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Klackon specific dialogue
 
@@ -34,7 +36,7 @@ DECLAREWAR_MILITARY_02     | What do you hide from me [your_name]? I will not kn
 DECLAREWAR_MILITARY_03     | I won't let you conceal the object of my search any longer! I know that the one I seek is on one of your worlds. I will not rest until you have given them to me!
 DECLAREWAR_ALLIANCE_01     | My friend called [other_name] has aided me in my quest more than you could know. I'm happy to repay them by getting rid of you!
 DECLAREWAR_ALLIANCE_02     | Those who help me in my search have my undying appreciation, and I will happily give what I can to honor my friend [other_name]. Prepare to die, [your_name]!
-DECLAREWAR_ALLIANCE_03     | You push everyone in the galaxy because you think no one would dare oppose your will. If the [other_name] will bring the fight to you, then so will I!
+DECLAREWAR_ALLIANCE_03     | You push everyone in the sector because you think no one would dare oppose your will. If the [other_name] will bring the fight to you, then so will I!
 DECLAREWAR_SPYING_01       | Not a thing happens on one of my worlds that escapes my gaze. Since you insist on behaving in such a nefarious way, you leave me no choice but to destroy you.
 DECLAREWAR_SPYING_02       | Silly [your_name], I have had enough of your games! You won't have time for such devious scheming if you have to fend off my armies! Prepare for war!
 DECLAREWAR_SPYING_03       | What did you hope to gain by moving against me so? Now I have no choice but to fight you, no matter what the difference in our armies may be!
@@ -59,7 +61,7 @@ WARN_ESPIONAGE_01          | I don't understand you, [spy_name]. You act as thou
 WARN_SABOTAGE_01           | You make a mockery of me with this act of sabotage! My quest takes precedence over all else, but if this happens again I will pause my search to deal with you personally! [forced]
 WARN_BIOWEAPON_01          | This weapon of yours is absolutely horrifying. To use it at all speaks of what you really are, but to use it on the bodies of another living thing makes me completely mortified! 
 WARN_GENOCIDE_01           | How callous! I never expected that you would go so far as to completely destroy the one known as [victim_name]. I will never forget the barbarity you've shown this day. 
-WARN_FINAL_WAR_01          | I now see that for me to realize my dream, the galaxy must be at peace. But as long as you exist that peace can never be made real. The answer is obvious: the [rebel_name] must be destroyed! 
+WARN_FINAL_WAR_01          | I now see that for me to realize my dream, the sector must be at peace. But as long as you exist that peace can never be made real. The answer is obvious: the [rebel_name] must be destroyed! 
 WARN_COUNCIL_VOTE_01       | I admit that I'm unfamiliar with the nuances of what you call "political maneuvering." But I do know that by voting for [other_name] you have made a move against me, and I don't forget those impede me so. 
 WARN_OATHBREAKER_01        | Is this how you operate, [your_name]? To make an agreement only to break it when you see fit? I knew that you were nothing like me, and your actions prove this beyond a shadow of a doubt! [spiesCaught] 
 WARN_ATTACKED_ALLY_01      | Why do you attack my friend [defender_name], [your name]? Find another way to resolve your differences: I will not like being forced to intervene! 

@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Bulrathi specific dialogue
 
@@ -30,7 +32,7 @@ DECLAREWAR_ERRATIC_02      | Each thing has a time and place in this universe. W
 DECLAREWAR_ERRATIC_03      | Have you ever marveled at fate, ambassador? It has a funny way of making real that which seems impossible. Let us test fate together, little [your_race], and see what it has in store.
 DECLAREWAR_MILITARY_01     | To the strong go the spoils. The [my_race] are strong, and so we shall gain the spoils, regardless of who they belong to.
 DECLAREWAR_MILITARY_02     | Your people fight well for ones so small, ambassador. Let us find out how well they'll fight with the might of the [my_race] brought to bear upon them!
-DECLAREWAR_MILITARY_03     | This galaxy belongs to the mighty, and our might will not allow yours to eclipse it. Defend your worlds well, or we shall take them from you in turn!
+DECLAREWAR_MILITARY_03     | This sector belongs to the mighty, and our might will not allow yours to eclipse it. Defend your worlds well, or we shall take them from you in turn!
 DECLAREWAR_ALLIANCE_01     | An ally of the Empire has requested our aid! We will show both you and the [defender_race] the true power of the [my_race] unleashed!
 DECLAREWAR_ALLIANCE_02     | You make war on our ally, doubtless unaware that you make war on us as well. This is a fight from which your people will not emerge victorious, ambassador. Count on it.
 DECLAREWAR_ALLIANCE_03     | Even with all your might, you stand no chance against the [defender_race] if we [my_race] join with them! Prepare yourself, little [your_race]!
@@ -57,12 +59,12 @@ WARN_INVADED_01            | Ha! Such bravery from so small a people. Leave our 
 WARN_ESPIONAGE_01          | Cowards! To sneak amongst [victim_race_plural] like chommkas escaping their tubes. Be grateful we did not crush your spy, and do not force us to respond to such spinelessness again! [framed]
 WARN_SABOTAGE_01           | Why not face us in combat, little one? It would bore us to battle a race timid enough to rely on sabotage, but if you do this again we may endure that boredom just to be rid of you! [forced] 
 WARN_BIOWEAPON_01          | The ultimate act of cowardice, to use a bioweapon against those who cannot even defend themselves! Your people will bear this shame until the end of your empire, little one: nothing you do will ever wipe this slate clean. 
-WARN_GENOCIDE_01           | The [victim_race_plural] were weak and frail, and are no great loss to the galaxy. That a people as insignificant as yours would be the ones responsible for their extinction is what we find most disconcerting.
-WARN_FINAL_WAR_01          | We admire the bravery of those who seek to stand against the galaxy when it has chosen to unite in peace? We will record your boldness in our histories, little one, after we have crushed you down to the very last child! 
+WARN_GENOCIDE_01           | The [victim_race_plural] were weak and frail, and are no great loss to the sector. That a people as insignificant as yours would be the ones responsible for their extinction is what we find most disconcerting.
+WARN_FINAL_WAR_01          | We admire the bravery of those who seek to stand against the sector when it has chosen to unite in peace? We will record your boldness in our histories, little one, after we have crushed you down to the very last child! 
 WARN_COUNCIL_VOTE_01       | This council is a gathering of simpering fools who would rather discuss their grievances than settle them like warriors! But just because we have such disdain for these proceedings does not mean we will readily forgive your opposition during them!
 WARN_OATHBREAKER_01        | Little one! To break your word is the ultimate shame! We know your kind to be feeble in body, but to be feeble in word as well surprises even us! [spiesCaught]
 WARN_ATTACKED_ALLY_01      | The little [defender_race] are under our protection! Cease your war and make amends, or you will die by our hand before you know what hits you!
-WARN_REBELLING_AGAINST_01    | The Grand Hierarch is the only one fit to sit upon the throne of the Galactic Council! We will never accept your vile usurpation!
+WARN_REBELLING_AGAINST_01    | The Grand Hierarch is the only one fit to sit upon the throne of the Orion Council! We will never accept your vile usurpation!
 //
 PRAISE_COUNCIL_VOTE_01     | Ha! The looks on their faces as you sided with us proves very amusing. But now they know where the true power lies, and we thank our little friends for helping them to learn! 
 PRAISE_COUNCIL_VOTE_02     | It's quite tedious to be forced to endure babbling dotards during these meetings. Whether you aided us to end it quicker or because you are aware of our power, we recognize what you have done today.
@@ -75,7 +77,7 @@ PRAISE_ATTACKED_ENEMY_03   | It's painfully obvious that you only fight against 
 PRAISE_TRADE_01            | Our trade agreement has been most profitable for both our races, little friend. But trust is the most valuable coin, and we will continue to trust you so long as you act thusly.
 PRAISE_TRADE_02            | While war may be the most exhilarating way to advance, it is not the only way, as our trade agreement proves. Long may it continue so both our people may prosper! 
 
-PRAISE_REBELLING_WITH_01   | Ha ha! So you think to stand against the galaxy on your own? Did you think we would shy away from such a glorious battle? Stand tall, for the [my_empire] stands with you!
+PRAISE_REBELLING_WITH_01   | Ha ha! So you think to stand against the sector on your own? Did you think we would shy away from such a glorious battle? Stand tall, for the [my_empire] stands with you!
 
 ACCEPT_TRADE_01            | The wisdom of your negotiations makes up for your lack in size, little [your_race]! The Empire is pleased to trade [amt] BC with you yearly from now on.
 RESPOND_IGNORE_THREAT_01   | Hahaha, and why should we listen to threats from such tiny beings? Go now, and count yourself lucky we are in such a forgiving mood today!

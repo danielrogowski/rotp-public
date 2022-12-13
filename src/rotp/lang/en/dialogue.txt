@@ -124,7 +124,7 @@ ACCEPT_ALLIANCE_01         | [my_nameTitle] [my_name] sees the wisdom in an Alli
 OFFER_JOINT_WAR_01         | The time has come for the [your_empire] and [my_empire] to join together in war against the [other_race].
 ACCEPT_JOINT_WAR_01        | The [other_empire] must fall before the combined might of the [my_empire] and [your_empire].
 ACCEPT_JOINT_WAR_01        | With [my_race] and [your_race] allied, the [other_race] will not last long.
-ACCEPT_JOINT_WAR_01        | In the year [year], the [my_empire] and [your_empire] join forces to rid the galaxy of the [other_race] menace.
+ACCEPT_JOINT_WAR_01        | In the year [year], the [my_empire] and [your_empire] join forces to rid the sector of the [other_race] menace.
 COUNTER_JOINT_WAR_01       | We will join you in your war against the [other_empire] in exchange for the following compensation:
 RESPOND_CLOSE_EMBASSY_01   | So be it. There will be no further discussions between our empires.
 

@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Darlok specific dialogue
 
@@ -45,7 +47,7 @@ DECLAREWAR_ASSASSIN_01     | Outrageous, to knowingly lay low an ambassador who 
 
 OFFER_PEACE_01             | That is enough killing for one war ambassador. Surely neither of our peoples can afford to waste life so wantonly. We propose an immediate end to this conflict, for the sake of both our futures.
 OFFER_TRADE_01             | While direct approaches can sometimes be best, they are not the only way an empire can advance its goals. There is a time for trade in good faith, and we believe that time is now. Shall we begin with... [amt] BC every year? 
-OFFER_PACT_01              | This infinite expanse holds unknown dangers for those who choose to explore it. Let us not add to them unless necessary. A non-aggression pact between our peoples will reduce by one the risks in expanding throughout the galaxy. 
+OFFER_PACT_01              | This infinite expanse holds unknown dangers for those who choose to explore it. Let us not add to them unless necessary. A non-aggression pact between our peoples will reduce by one the risks in expanding throughout the sector. 
 OFFER_ALLIANCE_01          | There are those who look upon us and allow their fear to cloud their judgment. We do not believe your kind are among them. Let us formalize an alliance between [my_race] and [your_race], and use the fear others have as an advantage to both our empires. 
 
 WARN_TRESPASSING_01        | We do not wish a war against you at this time, but your presence at [system] is hard to interpret as anything but trespassing. Leave at once, and prove our fears unfounded. 
@@ -58,9 +60,9 @@ WARN_ESPIONAGE_01          | Your plodding attempt at espionage has proven most 
 WARN_SABOTAGE_01           | So the [spy_empire] means to sabotage? Your endeavor was too insignificant to force our retaliation, but should you try this again we may opt to treat you like the pest you insist on being! [forced]
 WARN_BIOWEAPON_01          | An ugly thing, that weapon. Even uglier is the one who chooses to use it on helpless civilians. Their screams of agony will echo through space for centuries, and we will join that lilting refrain as it curses your despicable name.
 WARN_GENOCIDE_01           | The threat of genocide is not unknown to my people, but to see it so casually realized... you disgust us in ways I doubt we will ever forgive, ambassador. 
-WARN_FINAL_WAR_01          | As peace dawns on the galaxy, all who partake shall find what they seek. If you [rebel_race_plural] threaten that peace, you threaten our ultimate goal, and we will do everything we can to banish you to the annals of the galaxy. 
+WARN_FINAL_WAR_01          | As peace dawns on the sector, all who partake shall find what they seek. If you [rebel_race_plural] threaten that peace, you threaten our ultimate goal, and we will do everything we can to banish you to the annals of the galaxy. 
 WARN_COUNCIL_VOTE_01       | It is not that we lack appreciation for subtle political maneuverings, only that we become most displeased when those maneuverings work against us. Tread lightly, ambassador: we may not give you the opportunity to maneuver this way again.
-WARN_OATHBREAKER_01        | Feckless cowards! Alas that our people must endure the distrust of the entire galaxy when you so brazenly prove that you are the ones who deserve such enmity! [spiesCaught]
+WARN_OATHBREAKER_01        | Feckless cowards! Alas that our people must endure the distrust of the entire sector when you so brazenly prove that you are the ones who deserve such enmity! [spiesCaught]
 WARN_ATTACKED_ALLY_01      | We warn you only once, ambassador. Halt your aggression towards the [defender_race_plural]: they stand with us, and we stand with them.
 WARN_REBELLING_AGAINST_01  | You dare usurp the highest seat on the council from us, its rightful masters? Your people will live to regret this day, ambassador.
 //

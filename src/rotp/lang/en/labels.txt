@@ -185,7 +185,7 @@ INC_ATTACKED_ENEMY_DESC           | The [attacker_empire] attacked the [defender
 INC_USED_BIOWEAPONS_TITLE         | Used Biological Weapons
 INC_USED_BIOWEAPONS_DESC          | The [attacker_empire] used biological weapons against the [victim_empire] at [system].
 INC_KILLED_MONSTER_TITLE          | %1
-INC_KILLED_MONSTER_DESC           | The [your_empire] destroyed the [monster], ending a galactic threat to all empires.
+INC_KILLED_MONSTER_DESC           | The [your_empire] destroyed the [monster], ending a sectoral threat to all empires.
 INC_KILLED_GUARDIAN_TITLE         | Orion Guardian
 INC_KILLED_GUARDIAN_DESC          | The [your_empire] destroyed the Guardian ship of Orion, revealing the secrets of the precursors.
 INC_NO_RELATIONS_TITLE            | No Diplomatic Relations
@@ -217,7 +217,7 @@ INC_INVADED_COLONY_DESC           | Troops for the [attacker_race] invaded but f
 INC_COUNCIL_VOTE_TITLE            | Council Vote
 INC_COUNCIL_VOTE_FOR_DESC         | The [voter_race] voted for [candidate_name], leader of the [candidate_race].
 INC_COUNCIL_VOTE_AGAINST_DESC     | The [voter_race] voted against [candidate_name], leader of the [candidate_race].
-INC_COUNCIL_ABSTAIN_DESC          | The [voter_race] abstained from the Galactic Council election, refusing to vote for [candidate_name], leader of the [candidate_race].
+INC_COUNCIL_ABSTAIN_DESC          | The [voter_race] abstained from the Orion Council election, refusing to vote for [candidate_name], leader of the [candidate_race].
 INC_DECLARED_WAR_TITLE            | Declared War
 INC_DECLARED_WAR_DESC             | The [aggressor_empire] declared war against the [victim_empire].
 INC_ERRATIC_WAR_TITLE             | Erratic Behavior
@@ -250,7 +250,7 @@ INC_EXPANSION_DESC                | With control of [num] systems, the [your_emp
 INC_GENOCIDE_TITLE                | Genocide
 INC_GENOCIDE_DESC                 | The [attacker_empire] has completely destroyed the [victim_race] race.
 INC_FINAL_WAR_TITLE               | Final War!
-INC_FINAL_WAR_DESC                | The [rebel_empire] has rebelled against the ruling of the Galactic Council, resulting in a call for its complete eradication by the remaining allied forces of the galaxy.
+INC_FINAL_WAR_DESC                | The [rebel_empire] has rebelled against the ruling of the Orion Council, resulting in a call for its complete eradication by the remaining allied forces of the sector.
 INC_MILITARY_BUILDUP_TITLE        | Military Buildup
 INC_MILITARY_BUILDUP_DESC         | The [your_empire] is assembling an armed fleet at [system].
 INC_OATHBREAKER_TITLE             | Broke Oath
@@ -322,14 +322,14 @@ GAME_SETTINGS_GRAPHICS_DESC       | Adjusts the graphics quality of game. Medium
 GAME_SETTINGS_TEXTURES            | Textures: %1
 GAME_SETTINGS_TEXTURES_NO         | No
 GAME_SETTINGS_TEXTURES_INTERFACE  | User Interface
-GAME_SETTINGS_TEXTURES_MAP        | Galaxy Map
+GAME_SETTINGS_TEXTURES_MAP        | Orion Sector Map
 GAME_SETTINGS_TEXTURES_BOTH       | Interface and Map
-GAME_SETTINGS_TEXTURES_DESC       | Toggle the use of textures on the galaxy map or the various screens throughout the game.
+GAME_SETTINGS_TEXTURES_DESC       | Toggle the use of textures on the sector map or the various screens throughout the game.
 GAME_SETTINGS_SENSITIVITY         | Hover Sensitivity: %1
 GAME_SETTINGS_SENSITIVITY_HIGH    | High
 GAME_SETTINGS_SENSITIVITY_MEDIUM  | Medium
 GAME_SETTINGS_SENSITIVITY_LOW     | Low
-GAME_SETTINGS_SENSITIVITY_DESC    | Toggle how quickly the galaxy map responds to mouse movement when updating the display panel.
+GAME_SETTINGS_SENSITIVITY_DESC    | Toggle how quickly the sector map responds to mouse movement when updating the display panel.
 GAME_SETTINGS_MEMORY              | Show Memory Usage: %1
 GAME_SETTINGS_MEMORY_YES          | Yes
 GAME_SETTINGS_MEMORY_NO           | No
@@ -431,11 +431,11 @@ MAIN_HELP_2G                      | Transport population to fortify another colo
 MAIN_HELP_2H                      | Completely abandon a planet by transferring all population from it to another colony.
 MAIN_HELP_2I                      | Current and maximum planet population. 100 represents a full home planet that has not been terraformed.
 MAIN_HELP_2J                      | Current and maximum factories allowed. Maximum factories based on population and robotic controls technology.
-MAIN_HELP_2K                      | Place a flag on the system to help it stand out on the galaxy map.
+MAIN_HELP_2K                      | Place a flag on the system to help it stand out on the sector map.
 MAIN_HELP_2L                      | The amount of reserve stored in the empire treasury.
 MAIN_HELP_2M                      | The current state of research for each of the six technology areas.
 MAIN_HELP_3A                      | Game - returns to the opening menu. Allows you to adjust settings or save, load, and start games.
-MAIN_HELP_3B                      | Systems - galaxy map showing the status of systems in the galaxy by different criteria.
+MAIN_HELP_3B                      | Systems - sector map showing the status of systems in the sector by different criteria.
 MAIN_HELP_3C                      | Fleets - allows large-scale control of your fleets and shipbuilding within your empire.
 MAIN_HELP_3D                      | Designs - create ship designs for your fleet using your latest technology. Unwanted designs can be scrapped.
 MAIN_HELP_3E                      | Races - detailed information and diplomatic options for any alien races you have encountered.
@@ -443,7 +443,7 @@ MAIN_HELP_3F                      | Colonies - detailed and sortable listing of 
 MAIN_HELP_3G                      | Tech - shows available technologies. Allows you to focus or balance research on up to six technologies.
 MAIN_HELP_3H                      | Next Year - advances the game to the next year.
 MAIN_HELP_3I                      | Current Turn - displays the game's current turn or your empire's current year. Click to toggle.
-MAIN_HELP_3J                      | Map controls - click to cycle through various display settings for the galaxy map.
+MAIN_HELP_3J                      | Map controls - click to cycle through various display settings for the sector map.
 
 MAIN_SYSTEM_DETAIL_PFB            | Pop %1  Fac %2  Base %3
 MAIN_SYSTEM_DETAIL_PF             | Pop %1  Fac %2
@@ -1011,8 +1011,8 @@ GNN_EXTINCTION_UNKNOWN_KILLER     | an unknown empire
 GNN_EXTINCTION                    | %1 has been completely destroyed by %2.
 GNN_EXTINCTION_NO_KILLER          | %1 has been completely destroyed.
 GNN_EXPANSION_1                   | The [expanding_empire] now spans %1 star systems, outstripping all the other races.
-GNN_EXPANSION_2                   | The [expanding_empire] now numbers %1 star systems. If their expansion is not contained they will soon control the galaxy.
-GNN_EXPANSION_3                   | The [expanding_empire] nearly controls a majority of the galaxy. Leaders are already preparing to merge with the mighty empire.
+GNN_EXPANSION_2                   | The [expanding_empire] now numbers %1 star systems. If their expansion is not contained they will soon control the sector.
+GNN_EXPANSION_3                   | The [expanding_empire] nearly controls a majority of the sector. Leaders are already preparing to merge with the mighty empire.
 GNN_ALLIANCE_FORMED               | The [first_empire] has formed an Alliance with the [second_empire].
 GNN_ALLIANCE_BROKEN               | The Alliance between the [first_empire] and the [second_empire] has been broken.
 GNN_FLEETS_RANKING                | Current ranking of space fleet strengths:
@@ -1023,8 +1023,8 @@ GNN_PLAYER_REBELLION              | %1 has rebelled and refuses to contribute to
 GNN_ALIEN_REBELLION               | %1 has rebelled and refused to contribute to the [rebelling_empire]. At least %2 million rebels control the colony.
 GNN_PLAYER_REBELLION_SPREAD       | Rebellion continues to spread throughout the [rebelling_empire]. At least %2 million rebels now control the colony at %1. 
 GNN_OVERTHROW                     | A new leader emerged from within the [alien_empire]. Rumors indicate the new emperor is a %1. Relations have become neutral and trade has been disrupted.
-GNN_END_COUNCIL                   | With only two Empires remaining, attempts to unify the galaxy with a Galactic Council have ended. Many leaders now debate what sort of final solution can bring lasting peace.
-GNN_FORM_COUNCIL                  | In the pursuit of peace, representatives for each race will soon convene to elect a Galactic Emperor to be chosen from the leaders of the two most populous empires.
+GNN_END_COUNCIL                   | With only two Empires remaining, attempts to unify the sector with a Orion Council have ended. Many leaders now debate what sort of final solution can bring lasting peace.
+GNN_FORM_COUNCIL                  | In the pursuit of peace, representatives for each race will soon convene to elect a Orion Sector Emperor to be chosen from the leaders of the two most populous empires.
 GNN_ALLY_AT_WAR                   | Our ally, the [ally_empire], has entered into war against the [other_empire].
 
 // Error UI text
@@ -1036,11 +1036,11 @@ ERROR_REDDIT                      | Reddit: www.Reddit.com/r/rotp
 // Setup UI
 SETUP_SELECT_RACE                 | Select Your Race
 SETUP_SELECT_OPPONENTS            | Select Opponents
-SETUP_SELECT_GALAXY               | Select Galaxy
+SETUP_SELECT_GALAXY               | Select Sector
 SETUP_SELECT_GALAXY_OPTIONS       | Select Options
 SETUP_GALAXY_RULESET_LABEL        | Rule Set
 SETUP_INSUFFICIENT_MEMORY         | Insufficient Memory
-SETUP_CREATING_GALAXY             | Creating Galaxy...
+SETUP_CREATING_GALAXY             | Creating Orion Sector...
 SETUP_RULESET_ORION               | Orion
 SETUP_RULESET_ANTARES             | Antares
 SETUP_RULESET_SIRIUS              | Sirius
@@ -1810,7 +1810,7 @@ HISTORY_EMPIRE                    | Empire
 
 // Council UIs
 COUNCIL_CONVENE_TITLE             | The High Council Convenes
-COUNCIL_CONVENE                   | The High Council has convened to elect one leader to be Ruler of the Galaxy.
+COUNCIL_CONVENE                   | The High Council has convened to elect one leader to be Ruler of the Sector.
 COUNCIL_CONVENE2                  | Each empire casts a share of votes proportional to its population. A candidate must collect at least two thirds of all votes to be elected. The candidates are the leaders of the two most populous empires: [first_name] of the [first_empire] and [second_name] of the [second_empire].
 COUNCIL_ADJOURN_TITLE             | The High Council Adjourns
 COUNCIL_ADJOURN                   | Voting has concluded and neither candidate has collected two-thirds of votes. No ruler has been named. The High Council will reconvene for another vote in 25 years.
@@ -1838,7 +1838,7 @@ COUNCIL_TREATY_PACT               | [alien_race]: Non-aggression Pact
 COUNCIL_TREATY_NONE               | [alien_race]: No Treaty
 COUNCIL_TREATY_WAR                | [alien_race]: At War
 COUNCIL_CONTINUE                  | Continue
-COUNCIL_ELECTED_TITLE             | Ruler of the Galaxy Elected!
+COUNCIL_ELECTED_TITLE             | Ruler of the Sector Elected!
 COUNCIL_ACCEPT_RULING             | Accept Ruling
 COUNCIL_REJECT_RULING             | Reject Ruling
 
@@ -1891,7 +1891,7 @@ SYSTEMS_EXT_INC_FLEET_PLAYER      | Enemy fleet in transit to our colony.
 SYSTEMS_EXT_INC_FLEET_ALLY        | Enemy fleet in transit to an allied colony.
 SYSTEMS_EXT_NEED_DEFENSE          | Defenses at this colony are not fully upgraded.
 SYSTEMS_EXT_INC_TRANSPORTS        | %1 [player_race] troops are in transit.
-SYSTEMS_HELP_1A                   | OVERVIEW - The purpose of this screen is to highlight systems in the galaxy that warrant attention by the player. Urgency or danger is denoted by color: flashing red is the highest, and green is the lowest.
+SYSTEMS_HELP_1A                   | OVERVIEW - The purpose of this screen is to highlight systems in the sector that warrant attention by the player. Urgency or danger is denoted by color: flashing red is the highest, and green is the lowest.
 SYSTEMS_HELP_1B                   | Explore - shows unexplored systems within reach of scouts, or potentially with unresearched technologies.
 SYSTEMS_HELP_1C                   | Expand - shows colonizable systems within reach of ships, or potentially with unresearched technologies.
 SYSTEMS_HELP_1D                   | Exploit - shows colonies based lacking economic development. Also shows uncolonized systems with resources.

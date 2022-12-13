@@ -11,6 +11,8 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
+// danielrogowski changed prose from galaxy to sector
+//
 
 // Sakkra specific dialogue
 
@@ -69,7 +71,7 @@ WARN_FINAL_WAR_01          | You know that we've all decided to join together fo
 WARN_COUNCIL_VOTE_01       | That wasn't a very nice thing to do in council. I thought we had an understanding, ambassador? That the will of the [candidate_race] was always the correct choice to make? Don't slip up again, dirty [your_race]!
 WARN_OATHBREAKER_01        | We always thought you were physically disgusting, with your weird bodies and foul odors. But now we see the actions match the visage! Be gone from my sight now, ambassador: I'm beginning to feel very sick indeed. [spiesCaught]
 WARN_ATTACKED_ALLY_01      | Look, we're not really fans of the [defender_race] even if we are technically allies. Just stop your stupid bickering otherwise we'll have to get involved.
-WARN_REBELLING_AGAINST_01  | How could the council do this to us?! How could they choose YOU of all people to lead this galaxy? We can't let this slide... you're just... so... FILTHY! 
+WARN_REBELLING_AGAINST_01  | How could the council do this to us?! How could they choose YOU of all people to lead this sector? We can't let this slide... you're just... so... FILTHY! 
 
 PRAISE_COUNCIL_VOTE_01     | Hey ambassador! Thanks for being so reliable in council. Those other races are so gross, but to have support from people like you? Well, it makes us feel like we're doing something right. Just let me know if you need anything, ok? 
 PRAISE_COUNCIL_VOTE_02     | You did very well today in the council chambers. I'm really glad to know that you see the wisdom in our ways. I hope your planets benefit from your wisdom as much as the Conclave does! 

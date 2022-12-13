@@ -11,7 +11,7 @@
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
 //
-// danielrogowski changed Triumvirate to Technocracy and Triumvir to President (the plural form was rewritten accordingly)
+// danielrogowski changed prose from Triumvirate to Technocracy and Triumvir to President (the plural form was rewritten accordingly) and galaxy to sector
 //
 
 // Human specific dialogue
@@ -26,7 +26,7 @@ GREETING_07                | Well, the [your_race] ambassador appears. What exac
 //
 DECLAREWAR_HATE_01         | The Technocracy is happy to show you why you shouldn't irritate a race whose power dwarfs your own. You should learn from this lesson... if you live through it that is.
 DECLAREWAR_HATE_02         | It saddens me to think of all the time we wasted "playing nice" with you when we were so obviously destined for a long and bloody war.
-DECLAREWAR_HATE_03         | There's no point in playing pretend anymore! We won't tolerate the demands that sharing the galaxy with you makes on us for even a second later! No matter what price we have to pay!
+DECLAREWAR_HATE_03         | There's no point in playing pretend anymore! We won't tolerate the demands that sharing the sector with you makes on us for even a second later! No matter what price we have to pay!
 
 DECLAREWAR_ERRATIC_01      | There's been a lot of talk lately about our military getting lazy and complacent. Hopefully a war with you will whip them back into shape for the Technocracy's more dangerous enemies.
 DECLAREWAR_ERRATIC_02      | Do you know about wargames, ambassador? Mock battles where we pit our forces against each other for training purposes. Well, we're hoping a real war with your people might be more beneficial towards that end. 
@@ -38,7 +38,7 @@ DECLAREWAR_MILITARY_03     | The President is as devoted to the people as the pe
 //
 DECLAREWAR_ALLIANCE_01     | There are many ways to impress one's allies, ambassador. Eliminating you will most assuredly increase our standing with the [other_race], so try to put on a good show won't you?
 DECLAREWAR_ALLIANCE_02     | The Technocracy will never abandon its allies to face their enemies alone! With Human and [other_race] united, you have no hope for victory!
-DECLAREWAR_ALLIANCE_03     | Just because you have a strong military doesn't mean the galaxy is yours by default. We gladly join with the [other_race], and together we'll see you punished for your innumerable crimes!
+DECLAREWAR_ALLIANCE_03     | Just because you have a strong military doesn't mean the sector is yours by default. We gladly join with the [other_race], and together we'll see you punished for your innumerable crimes!
 //
 DECLAREWAR_SPYING_01       | It looks like you thought that you could get away with such underhanded tactics just because of our diplomatic preferences. Fear not! We'll help you learn just how big of a mistake you made!
 DECLAREWAR_SPYING_02       | It would have been better for both of us if you'd been as committed to diplomacy as we are. We'll respond to your war of subterfuge with a more... traditional method of warfare.
@@ -53,8 +53,8 @@ DECLAREWAR_ASSASSIN_01     | I was shocked to learn that a seemingly intelligent
 
 OFFER_PEACE_01             | Surely you can see now that wars such as this only bring tragedy. Let us stop this folly before more precious [your_race] and [my_race] blood is spilled. Join us in ending the war and forging a new future that our children will be proud to inherit!
 OFFER_TRADE_01             | There's a saying on [my_home] that "war is inevitable," but we learned long ago that it never comes true where prosperity reigns. Let us join together in pursuit of that prosperity. Shall we begin at, oh, [amt] BC per year? 
-OFFER_PACT_01              | We both know that wars may start accidentally when empires expand throughout the galaxy. The last thing the Technocracy wants is war with a people as exemplary as yours, and a nonaggression pact will make both all our people rest easier at night. Don't you agree? 
-OFFER_ALLIANCE_01          | The [your_race_plural] are wonderful indeed! Ambassador, an idea just occurred to me: let us formalize an alliance between [your_race] and [my_race]. Together we can teach the rabble of this galaxy that diplomacy, not violence, is the only way forward! 
+OFFER_PACT_01              | We both know that wars may start accidentally when empires expand throughout the sector. The last thing the Technocracy wants is war with a people as exemplary as yours, and a nonaggression pact will make both all our people rest easier at night. Don't you agree? 
+OFFER_ALLIANCE_01          | The [your_race_plural] are wonderful indeed! Ambassador, an idea just occurred to me: let us formalize an alliance between [your_race] and [my_race]. Together we can teach the rabble of this sector that diplomacy, not violence, is the only way forward! 
 
 WARN_TRESPASSING_01        | Ambassador, it seems a [your_race] fleet has taken up position in [my_race] space. Surely you know we can't allow this? It's quite alright, simply remove your fleets and we'll forget it ever happened.  
 WARN_EXPANSION_01          | While the Technocracy wishes to respect your people's will, we simply can't turn a blind eye to such aggressive territorial expansion. I'm sure you will cease this in the name of preserving our diplomatic ties, right ambassador? 
@@ -66,11 +66,11 @@ WARN_ESPIONAGE_01          | My people are no strangers to spying, and it has pe
 WARN_SABOTAGE_01           | Espionage we could understand, but sabotage?! I'll do what I can to keep the generals placated, but if you try something like this again I doubt I'll be able or even willing to help you in the future. [forced]
 WARN_BIOWEAPON_01          | It's come to my attention that you used a bioweapon on civilians at [system]. I'm... frankly at a loss for words. For the good of our diplomatic ties I'll do what I can, but I can't say I'm enthusiastic about what the response will be within the Technocracy. 
 WARN_GENOCIDE_01           | What have you done?! A beautiful and ancient culture has been lost forever! I shudder to think how the President will react to this news: to genocide the [victim_race] is the absolute antithesis of our philosophy! 
-WARN_FINAL_WAR_01          | At last the galaxy has chosen to join together and move for peace, and yet you of all people choose to defy our democratically chosen course of action? After all our dealings I was mistaken to think better of you. But I know that soon that mistake will be rectified!  
+WARN_FINAL_WAR_01          | At last the sector has chosen to join together and move for peace, and yet you of all people choose to defy our democratically chosen course of action? After all our dealings I was mistaken to think better of you. But I know that soon that mistake will be rectified!  
 WARN_COUNCIL_VOTE_01       | I confess myself disappointed at your actions in council, ambassador. I'm hoping that this was a single mistake on your part and that this can become, as we humans like to say, "water under the bridge."
 WARN_OATHBREAKER_01        | Trust is the basis of all diplomacy, ambassador. In breaking your word you've spat upon our trust, and I assure you that our diplomatic relations have been dealt a blow from which they'll likely never recover. [spiesCaught]
 WARN_ATTACKED_ALLY_01      | Ambassador, I strongly advise you against further attacks on the [defender_race]. We have sworn an alliance with them, and even I won't be able to keep our military at bay if you insist on continuing this violent course of action!
-WARN_REBELLING_AGAINST_01  | It cannot be that you have been chosen over us to lead the Galactic Council! The President will be furious! I fear that they will see war as this only viable option remaining! 
+WARN_REBELLING_AGAINST_01  | It cannot be that you have been chosen over us to lead the Orion Council! The President will be furious! I fear that they will see war as this only viable option remaining! 
 //
 PRAISE_COUNCIL_VOTE_01     | My good friend the ambassador! I just wanted to tell you: well done in the council today! The Technocracy always appreciates those who support our causes, and are happy that an ally as grand as you continues to earn that appreciation. 
 PRAISE_COUNCIL_VOTE_02     | Ah, the ambassador of the [voter_empire]. I'm glad I found you before we adjourned. I'm happy to see your faith in the ideals of the Technocracy are so strong! When we each return home, be sure to reach out to me so that we might strengthen our diplomatic ties!

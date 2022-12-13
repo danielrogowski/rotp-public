@@ -856,9 +856,13 @@ public final class Colony implements Base, IMappedObject, Serializable {
         int p2 = (int) (population() - (retainPct * planet().currentSize()));
         return min(p1,p2);
     }
+    /**
+     * danielrogowski: population creates waste too
+     * @return waste
+     */
     public float newWaste() {
         float mod = empire().isPlayer() ? 1.0f : options().aiWasteModifier();
-        return max(0, usedFactories() * tech().factoryWasteMod() * mod);
+        return max(0, (usedFactories() * tech().factoryWasteMod() + population() * 0.1f) * mod);
     }
     public float wasteCleanupCost() {
         if (empire.ignoresPlanetEnvironment())

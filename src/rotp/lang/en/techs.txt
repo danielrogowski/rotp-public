@@ -797,32 +797,32 @@ IMPRINDUSTRY_7_DETAIL   | Reduces factory construction costs to 2 BC each.
 //
 // Improved Terraforming techs
 //
-IMPRTFORM_0_NAME        | Improved Terraforming +10
-IMPRTFORM_0_DETAIL      | Increases the population capacity of planets by 10M for a cost of 5 BC per million.
+IMPRTFORM_0_NAME        | Improved Terraforming +0.5
+IMPRTFORM_0_DETAIL      | Increases the population capacity of planets by 0.5B for a cost of 5 BC per 100 million.
 
-IMPRTFORM_1_NAME        | Improved Terraforming +20
-IMPRTFORM_1_DETAIL      | Increases the population capacity of planets by 20M for a cost of 5 BC per million.
+IMPRTFORM_1_NAME        | Improved Terraforming +1
+IMPRTFORM_1_DETAIL      | Increases the population capacity of planets by 1B for a cost of 5 BC per 100 million.
 
-IMPRTFORM_2_NAME        | Improved Terraforming +30
-IMPRTFORM_2_DETAIL      | Increases the population capacity of planets by 30M for a cost of 4 BC per million.
+IMPRTFORM_2_NAME        | Improved Terraforming +2
+IMPRTFORM_2_DETAIL      | Increases the population capacity of planets by 2B for a cost of 4 BC per 100 million.
 
-IMPRTFORM_3_NAME        | Improved Terraforming +40
-IMPRTFORM_3_DETAIL      | Increases the population capacity of planets by 40M for a cost of 4 BC per million.
+IMPRTFORM_3_NAME        | Improved Terraforming +3
+IMPRTFORM_3_DETAIL      | Increases the population capacity of planets by 3B for a cost of 4 BC per 100 million.
 
-IMPRTFORM_4_NAME        | Improved Terraforming +50
-IMPRTFORM_4_DETAIL      | Increases the population capacity of planets by 50M for a cost of 3 BC per million.
+IMPRTFORM_4_NAME        | Improved Terraforming +4.5
+IMPRTFORM_4_DETAIL      | Increases the population capacity of planets by 4.5B for a cost of 3 BC per 100 million.
 
-IMPRTFORM_5_NAME        | Improved Terraforming +60
-IMPRTFORM_5_DETAIL      | Increases the population capacity of planets by 60M for a cost of 3 BC per million.
+IMPRTFORM_5_NAME        | Improved Terraforming +6
+IMPRTFORM_5_DETAIL      | Increases the population capacity of planets by 6B for a cost of 3 BC per 100 million.
 
-IMPRTFORM_6_NAME        | Improved Terraforming +80
-IMPRTFORM_6_DETAIL      | Increases the population capacity of planets by 80M for a cost of 2 BC per million.
+IMPRTFORM_6_NAME        | Improved Terraforming +8
+IMPRTFORM_6_DETAIL      | Increases the population capacity of planets by 8B for a cost of 2 BC per 100 million.
 
-IMPRTFORM_7_NAME        | Improved Terraforming +100
-IMPRTFORM_7_DETAIL      | Increases the population capacity of planets by 100M for a cost of 2 BC per million.
+IMPRTFORM_7_NAME        | Improved Terraforming +10
+IMPRTFORM_7_DETAIL      | Increases the population capacity of planets by 10B for a cost of 2 BC per 100 million.
 
 IMPRTFORM_8_NAME        | Complete Terraforming
-IMPRTFORM_8_DETAIL      | Increases the population capacity of planets by 120M for a cost of 2 BC per million.
+IMPRTFORM_8_DETAIL      | Increases the population capacity of planets by 12.5B for a cost of 2 BC per 100 million.
 
 
 //

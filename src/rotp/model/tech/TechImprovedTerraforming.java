@@ -39,25 +39,26 @@ public final class TechImprovedTerraforming extends Tech {
         super.init();
         techType = Tech.IMPROVED_TERRAFORMING;
 
+        // danielrogowski: changed progression
         switch(typeSeq) {
             case 0:
-                increase = 10;
+                increase = 5;
                 costPerMillion = 5;
                 break;
             case 1:
-                increase = 20;
+                increase = 10;
                 costPerMillion = 5;
                 break;
             case 2:
-                increase = 30;
+                increase = 20;
                 costPerMillion = 4;
                 break;
             case 3:
-                increase = 40;
+                increase = 30;
                 costPerMillion = 4;
                 break;
             case 4:
-                increase = 50;
+                increase = 45;
                 costPerMillion = 3;
                 break;
             case 5:
@@ -73,7 +74,7 @@ public final class TechImprovedTerraforming extends Tech {
                 costPerMillion = 2;
                 break;
             case 8:
-                increase = 120;
+                increase = 125;
                 costPerMillion = 2;
                 break;
         }

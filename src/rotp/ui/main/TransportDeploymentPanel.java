@@ -472,7 +472,7 @@ public class TransportDeploymentPanel extends SystemPanel {
                 // draw amt
                 g.setColor(SystemPanel.blackText);
                 g.setFont(narrowFont(18));
-                drawString(g,str(transportSprite().amt()), button2X+buttonW+s5, y0);
+                drawString(g,str(((float)transportSprite().amt()) / 10), button2X+buttonW+s5, y0);
             }
 
             // draw ETA line under slider

@@ -314,7 +314,7 @@ public class MapOverlayColonizePrompt extends MapOverlay {
             y1 -= lineH;
         }
         else {
-            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), (int)sys.planet().maxSize());
+            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), Float.toString(((float)sys.planet().maxSize()) / 10));
             g.setFont(narrowFont(desiredFont+3));
             drawBorderedString(g, s1, 1, x1, y1, Color.black, Color.white);
             y1 -= lineH;

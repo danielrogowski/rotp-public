@@ -414,7 +414,7 @@ public class StarSystem implements Base, Sprite, IMappedObject, Serializable {
             case "DELTA_POPULATION": return str(empire().sv.deltaPopulation(id));
             case "SIZE":
                 int maxSize = (int)this.colony().maxSize();
-                int currSize =empire().sv.currentSize(id);
+                int currSize = empire().sv.currentSize(id);
                 if (maxSize == currSize)
                     return str(currSize)+" ";
                 else

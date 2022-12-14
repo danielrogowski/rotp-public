@@ -244,7 +244,7 @@ public class MapOverlayBombardPrompt extends MapOverlay {
             drawString(g,titleStr, boxX+leftW, boxY+s25);
 
             if (transports > 0) {
-                String subtitleStr = text("MAIN_BOMBARD_TROOPS", str(transports));
+                String subtitleStr = text("MAIN_BOMBARD_TROOPS", str(((float)transports) / 10));
                 subtitleStr = player().replaceTokens(subtitleStr, "alien");
                 g.setColor(Color.black);
                 int subtitleFontSize = min(titleFontSize-2, scaledFont(g, subtitleStr, boxW-leftW, 20, 14));
@@ -423,7 +423,7 @@ public class MapOverlayBombardPrompt extends MapOverlay {
             y1 -= lineH;
         }
         else {
-            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), (int)sys.planet().maxSize());
+            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), Float.toString(((float)sys.planet().maxSize()) / 10));
             g.setFont(narrowFont(desiredFont+3));
             drawBorderedString(g, s1, 1, x1, y1, Color.black, Color.white);
             y1 -= lineH;

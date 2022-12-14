@@ -193,10 +193,18 @@ public class TransportPanel extends BasePanel {
 
             // draw title
             g.setFont(narrowFont(20));
-            String str1 = text("MAIN_TRANSPORTS_COUNT", tr.launchSize());
+            final String colonistsOrTroops = tr.empire() == tr.targetCiv() ? "colonists" : "troops";
+            String str1 = text("MAIN_TRANSPORTS_COUNT", str(tr.launchSize())) + " - " + Float.toString(((float)tr.launchSize()) / 10) + "B " + colonistsOrTroops;
             int sw = g.getFontMetrics().stringWidth(str1);
             int x0 = (w-sw)/2;
             drawBorderedString(g, str1, 2, x0, s24, Color.black, SystemPanel.orangeText);
+
+//            str1 = "(" + Float.toString(((float)tr.launchSize()) / 10) + "B troops)";
+//            sw = g.getFontMetrics().stringWidth(str1);
+//            x0 = (w-sw)/2;
+//            g.setFont(narrowFont(16));
+//            drawBorderedString(g, str1, 2, x0, s40, Color.black, SystemPanel.orangeText);
+            //drawString(g, str1, x0, s40);
             
             if (!tr.empire().isPlayer())
                 return;

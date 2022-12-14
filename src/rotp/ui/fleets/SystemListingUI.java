@@ -812,6 +812,17 @@ public abstract class SystemListingUI extends BasePanel implements MouseListener
             if (attributeKey.isEmpty())
                 return;
             String val = sys.getAttribute(attributeKey);
+            if ("SIZE".equals(attributeKey)) {
+                int size = 0;
+                String suffix = " ";
+                String work = val.substring(0, val.length() - 1);
+                if (val.contains("+")) {
+                    suffix = "+";
+                }
+                try { size = Integer.parseInt(work); } catch (NumberFormatException e)
+                {throw new RuntimeException("val = '" + val + "', work = " + work + "'", e);}
+                val = str(((float)size) / 10) + suffix;
+            }
             int sw = g.getFontMetrics().stringWidth(val);
             if (sw > w) 
                 scaledFont(g, val, w, dataFontSize()-1, 8);
@@ -991,11 +1002,22 @@ public abstract class SystemListingUI extends BasePanel implements MouseListener
         @Override
         public void draw(Graphics g, RowSprite row, StarSystem sys, int x, int y, int w) {
             super.draw(g, row, sys, x, y, w);
+            
             String val1 = sys.getAttribute(attributeKey);
             String val2 = sys.getAttribute(deltaKey);
+            
             // remove leading - from negative deltas
-            int delta = 0; try { delta = Integer.parseInt(val2); } catch (NumberFormatException e) {}
-            val2 = delta < 0 ? str(Math.abs(delta)) : val2;
+            // danielrogowski: and convert pop values to billion
+            int delta = 0;
+            try { delta = Integer.parseInt(val2); } catch (NumberFormatException e) {}
+            if (!"POPULATION".equals(attributeKey)) {
+                val2 = delta < 0 ? str(Math.abs(delta)) : val2;
+            } else {
+                val2 = str(Math.abs(((float)delta) / 10));
+                int pop = 0;
+                try { pop = Integer.parseInt(val1); } catch (NumberFormatException e) {}
+                val1 = str(Math.abs(((float)pop) / 10));
+            }
 
             int sw1 = g.getFontMetrics().stringWidth(val1);
             int sw2 = g.getFontMetrics().stringWidth(val2);

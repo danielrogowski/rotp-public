@@ -638,7 +638,7 @@ MAIN_SCOUT_RICH_DESC              | Resources: Rich - Output from industry is do
 MAIN_SCOUT_ULTRA_RICH_DESC        | Resources: Ultra Rich - Output from industry is tripled.
 
 // Colonization prompt
-MAIN_COLONIZE_TITLE               | Our Colonists are orbiting %1, an uncolonized system.
+MAIN_COLONIZE_TITLE               | Our colonists are orbiting %1, an uncolonized system.
 MAIN_COLONIZE_PROMPT              | Build a new colony?
 MAIN_COLONIZE_YES                 | Yes
 MAIN_COLONIZE_NO                  | No

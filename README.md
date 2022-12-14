@@ -17,13 +17,18 @@ by ThunderPerfectWitchcraft
 
 ## Good Taste Mod (GTM)
 
-- renamed "New Republic" to "Orion Sector Confederacy", because that's what it is (and it sounds well)
-- renamed the Human "Triumvirate" to "Technocracy" and the "Triumvir" to "President"
-- higher costs for pop growth by investing into Eco without cloning
+- make Espionage actually useful
+	- it's a little harder to expel spies
+	- the cost for inserting the next spy doesn't grow as fast
+	- randomness in spy success or failure is lower (computer tech, Nazlok intrinsic and internal security investment count for more)
+- higher costs for pop growth by investing into Eco without a cloning tech
+- population also creates a small amount of pollution
 - different improvement steps for terraforming, construction cost, cleanup costs, pollution
 	- early steps are smaller, later ones are a bigger
 	- pollution starts at 150% with 50% as the minimum
-- population also creates a small amount of pollution
+- renamed "New Republic" to "Orion Sector Confederacy", because that's what it is (and it has a nice ring to it)
+- renamed the Human "Triumvirate" to "Technocracy" and the "Triumvir" to "President"
+- rewrote prose from galaxy to sector, where appropriate
 
 by danielrogowski
 

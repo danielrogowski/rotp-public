@@ -448,12 +448,7 @@ public class MultiColonySpendingPane extends BasePanel implements MouseListener,
                     g.setColor(SystemPanel.darkOrangeText);
                 else
                     g.setColor(Color.gray);
-                 drawString(g,popStr, boxL+x1, boxTopY+boxH-s4);
                 
-                if (popGrowth < 0)
-                    g.setColor(SystemPanel.orangeText);
-                else
-                    g.setColor(Color.lightGray);
                 Shape prevClip = g.getClip();
                 g.setClip(fillRect);
                 drawString(g,popStr, boxL+x1, boxTopY+boxH-s4);

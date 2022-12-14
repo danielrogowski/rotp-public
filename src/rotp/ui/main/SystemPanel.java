@@ -383,9 +383,9 @@ public abstract class SystemPanel extends BasePanel implements SystemViewer, Map
                 g2.setColor(redText);
             }
             else if (planetSize == population)
-                popStr = text("MAIN_PLANET_POP", population);
+                popStr = text("MAIN_PLANET_POP", Float.toString(((float)population) / 10));
             else
-                popStr = text("MAIN_PLANET_POP_SIZE", population, planetSize);
+                popStr = text("MAIN_PLANET_POP_SIZE", Float.toString(((float)population) / 10), Float.toString(((float)planetSize) / 10));
 
             int sw = g2.getFontMetrics().stringWidth(popStr);
 
@@ -419,11 +419,11 @@ public abstract class SystemPanel extends BasePanel implements SystemViewer, Map
                 g2.setColor(redText);
             }
             else if (planet.currentSize() == planet.maxSize())
-                popStr = text("MAIN_PLANET_SIZE", planetSize);
+                popStr = text("MAIN_PLANET_SIZE", Float.toString(((float)planetSize) / 10));
             else if (pl.sv.isColonized(id) && pl.sv.empire(id).isAI())
-                popStr = text("MAIN_PLANET_SIZE", planetSize);
+                popStr = text("MAIN_PLANET_SIZE", Float.toString(((float)planetSize) / 10));
             else
-                popStr = text("MAIN_PLANET_SIZE+", planetSize);
+                popStr = text("MAIN_PLANET_SIZE+", Float.toString(((float)planetSize) / 10));
 
             int sw = g2.getFontMetrics().stringWidth(popStr);
 

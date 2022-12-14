@@ -329,7 +329,7 @@ public class MapOverlaySystemsScouted extends MapOverlay {
             y2 -= lineH;
         }
         else {
-            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), (int)sys.planet().maxSize());
+            String s1 = text("MAIN_SCOUT_TYPE", text(sys.planet().type().key()), Float.toString(((float)sys.planet().maxSize()) / 10));
             g.setFont(narrowFont(desiredFont+3));
             drawBorderedString(g, s1, 1, x2, y2, Color.black, Color.white);
             y2 -= lineH;

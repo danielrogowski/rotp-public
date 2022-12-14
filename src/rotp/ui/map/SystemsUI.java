@@ -870,7 +870,7 @@ public final class SystemsUI extends BasePanel implements IMapHandler, ActionLis
                 else if (sv.currentSize() == 0)
                     return text("SYSTEMS_ENVIRONMENT_SIZE", sv.planetType().name(), "");
                 else
-                    return text("SYSTEMS_ENVIRONMENT_SIZE", sv.planetType().name(), str(sv.currentSize()));
+                    return text("SYSTEMS_ENVIRONMENT_SIZE", sv.planetType().name(), str(((float)sv.currentSize()) / 10));
             case exploitTab: 
                 return text("SYSTEMS_ENVIRONMENT_TYPE", text(sv.resourceType()), text(sv.ecologyType()));
             case exterminateTab: 

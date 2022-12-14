@@ -370,7 +370,7 @@ public class TransportDeploymentPanel extends SystemPanel {
                 if (maxAllowed == 0)
                     prompt = text("MAIN_TRANSPORT_NO_ROOM");
                 else
-                    prompt = text("MAIN_TRANSPORT_SIZE_WARNING", str(maxAllowed));
+                    prompt = text("MAIN_TRANSPORT_SIZE_WARNING", str(((float)maxAllowed) / 10));
                 promptColor = SystemPanel.redText;
             }
             else if (dest.empire() == pl)
@@ -401,14 +401,14 @@ public class TransportDeploymentPanel extends SystemPanel {
 
             textureClip = new Rectangle2D.Float(0,s8,w,scaled(108));
             //int maxDestSize = pl.sv.maxTransportsToReceive(dest.id);
-            maxSendingSize = enableAbandon? pl.sv.population(from.id): pl.sv.maxTransportsToSend(from.id);
+            maxSendingSize = enableAbandon ? pl.sv.population(from.id) : pl.sv.maxTransportsToSend(from.id);
             int turns = (int) Math.ceil(from.transportTimeTo(dest));
 
             g.setColor(MainUI.paneBackground());
             g.fillRect(0, s79, w, s37);
 
             g.setColor(SystemPanel.blackText);
-            String popLabel = enableAbandon ? text("MAIN_TRANSPORT_TOTAL_POP_LABEL", maxSendingSize): text("MAIN_TRANSPORT_POP_LABEL");
+            String popLabel = enableAbandon ? text("MAIN_TRANSPORT_TOTAL_POP_LABEL", Float.toString(((float)maxSendingSize) / 10)) : text("MAIN_TRANSPORT_POP_LABEL");
             int sw2 = g.getFontMetrics().stringWidth(popLabel);
             y0 += s21;
             g.setFont(narrowFont(16));

@@ -153,7 +153,8 @@ public class AlienSystemPanel extends SystemPanel {
             drawString(g,shieldLbl, x0, y1);
             drawString(g,baseLbl, x1, y1);
 
-            String str = spied ? str(pl.sv.population(id)) : unknown;
+            // danielrogowski: changed pop drawing: scaled times 100 and changed to billion
+            String str = spied ? str(((float)pl.sv.population(id)) / 10) : unknown;
             sw = g.getFontMetrics().stringWidth(str);
             drawString(g,str, x1-sw-s10, y0);
             str = spied ? str(pl.sv.factories(id)) : unknown;

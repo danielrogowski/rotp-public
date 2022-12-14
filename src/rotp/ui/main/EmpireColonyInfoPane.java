@@ -211,6 +211,10 @@ public class EmpireColonyInfoPane extends BasePanel {
                 val += c.maxSize(); 
             return val;
         }
+        @Override
+        protected String valueString(List<Colony> c)  { return str(((float)value(c)) / 10); }
+        @Override
+        protected String maxValueString(List<Colony> c) { return str(((float)maxValue(c)) / 10); }
     }
     class EmpireFactoriesPane extends EmpireDataPane {
         private static final long serialVersionUID = 1L;

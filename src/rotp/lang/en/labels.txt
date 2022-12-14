@@ -429,7 +429,7 @@ MAIN_HELP_2E                      | Change ship design to build in the planet's 
 MAIN_HELP_2F                      | Set a rally point to automatically send newly constructed ships to another colony.
 MAIN_HELP_2G                      | Transport population to fortify another colony or send troops to invade an enemy planet. The colony incurs a one-time production cost for transporting.
 MAIN_HELP_2H                      | Completely abandon a planet by transferring all population from it to another colony.
-MAIN_HELP_2I                      | Current and maximum planet population. 100 represents a full home planet that has not been terraformed.
+MAIN_HELP_2I                      | Current and maximum planet population. 10.0 represents a full home planet that has not been terraformed.
 MAIN_HELP_2J                      | Current and maximum factories allowed. Maximum factories based on population and robotic controls technology.
 MAIN_HELP_2K                      | Place a flag on the system to help it stand out on the sector map.
 MAIN_HELP_2L                      | The amount of reserve stored in the empire treasury.
@@ -565,7 +565,7 @@ MAIN_TRANSPORT_OUT_OF_RANGE       | This system is out of range of our military 
 MAIN_TRANSPORT_UNSCOUTED          | We cannot send transports to unscouted systems.
 MAIN_TRANSPORT_HOSTILE            | We do not have the technology to land in this environment.
 MAIN_TRANSPORT_NO_ROOM            | Warning - Target planet is at its maximum population!
-MAIN_TRANSPORT_SIZE_WARNING       | Warning - Target planet can only support %1 million!
+MAIN_TRANSPORT_SIZE_WARNING       | Warning - Target planet can only support %1 billion!
 MAIN_TRANSPORT_NO_SELECTION       | No Selection
 MAIN_TRANSPORT_CANCEL             | Cancel
 MAIN_TRANSPORT_SEND               | Send Transports

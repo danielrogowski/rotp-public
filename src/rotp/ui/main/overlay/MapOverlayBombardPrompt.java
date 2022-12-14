@@ -293,7 +293,7 @@ public class MapOverlayBombardPrompt extends MapOverlay {
         int pad = s30;
         int p1 = BasePanel.s5;
         String dmgStr = text("MAIN_BOMBARD_DMG", "-99");
-        String popStr = text("MAIN_BOMBARD_POPULATION", endPop);
+        String popStr = text("MAIN_BOMBARD_POPULATION", Float.toString(((float)endPop) / 10));
         String factStr = text("MAIN_BOMBARD_FACTORIES", endFact);
         String baseStr = text("MAIN_BOMBARD_BASES", endBases);
         String shieldStr = text("MAIN_BOMBARD_SHIELD", shield);
